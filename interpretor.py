@@ -21,7 +21,7 @@ if 'data' not in st.session_state:
             dic[i][j]=k
     st.session_state['data']=dic
 if debug : st.session_state['data']
-tabs=st.tabs(st.session_state['data'].keys())
+tabs=st.tabs(list(st.session_state['data'].keys()))
 
 if dataf : 
     for cat in st.session_state['data'].keys():
