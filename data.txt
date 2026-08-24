@@ -1,0 +1,107 @@
+--- Moine
+--Frappe à mains nues supplémentaire || Vous pouvez effectuer une Frappe à mains nues en tant qu'action Bonus || attaque en action bonus
+--Dé d'Arts martiaux || Vous pouvez lancer 1d6 à la place des dégâts normaux de votre Frappe à mains nues ou de vos armes de moine. Ce dé change à mesure que vous gagnez des niveaux de moine, comme indiqué dans la colonne Arts martiaux de la table Capacités du moine || 1d6+modif pour les attaques
+--Attaques lestes || Vous pouvez utiliser votre modificateur de Dextérité au lieu de votre modificateur de Force pour les jets d'attaque et de dégâts de vos Frappes à mains nues et de vos armes de moine. De plus, lorsque vous utilisez l'option Lutte ou Bousculade de vos Frappes à mains nues, vous pouvez utiliser votre modificateur de Dextérité au lieu de votre modificateur de Force pour déterminer le DD du jet de sauvegarde || Dex remplace la force pour les attaques au cac
+--Défense sans armure || Lorsque vous ne portez pas d’armure et ne maniez pas de bouclier, votre classe d’armure de base est égale à 10 plus vos modificateurs de Dextérité et de Sagesse. || sans armure et bouclier -> CA = 10 + dex + sag
+--Point de crédo ||Lorsque vous dépensez un point de Credo, celui-ci n'est disponible jusqu'à ce que vous terminiez un Repos court ou long, au terme duquel vous récupérez tous vos points dépensés. Certaines capacités utilisant des points de Credo nécessitent un jet de sauvegarde de la part de la cible. Le DD de sauvegarde est égal à 8 plus votre modificateur de Sagesse et votre bonus de maîtrise.|| repos court ou long -> recup full . jet de sauvegarde = 1d8+4+maitrise
+--Déluge de coups.|| Vous pouvez dépenser 1 point de Credo pour effectuer deux Frappes à mains nues en tant qu'action Bonus. || action bonus = 2 attaques contre un point de credo
+-- Patience défensive. || Vous pouvez prendre l'action Désengagement en tant qu'action Bonus. Vous pouvez également dépenser 1 point de Credo pour prendre les actions Désengagement et Esquive en tant qu'action Bonus. || désengagement pour une action bonus , 1 pt de credo pour désengagement et esquive en action bonus
+-- Porté par le vent.|| Vous pouvez prendre l'action Pointe en tant qu'action Bonus. Vous pouvez également dépenser 1 point de Credo pour prendre les actions Désengagement et Pointe en tant qu'action Bonus, et votre distance de saut est doublée pour le tour. || Pointe pour action bonus, point de credo -> désengagement + pointe en action bonus + distance de saut doublée pour le tour 
+--Déplacement sans armure || Votre Vitesse augmente de 3 mètres lorsque vous ne portez pas d’armure et ne maniez pas de bouclier. Ce bonus augmente lorsque vous atteignez certains niveaux de moine, comme indiqué dans la table Capacités du moine. || sans armure -> +3 de mouvement
+--Métabolisme surnaturel || Lorsque vous lancez l'Initiative, vous pouvez récupérer tous vos points de Credo dépensés. Pour ce faire, lancez votre dé d'Arts martiaux et récupérez un nombre de points de vie égal à votre niveau de moine plus le résultat obtenu. Une fois cette capacité utilisée, vous ne pouvez plus la réutiliser avant d'avoir terminé un Repos long. || 1x par repos long a l'initiative -> recup les points de crédo et 1d6+3 PV
+--Déviation d'assaut || Lorsqu'un jet d'attaque vous touche et que ses dégâts incluent des dégâts contondants, perforants ou tranchants, vous pouvez prendre une Réaction pour réduire les dégâts totaux de l'attaque contre vous. La réduction est égale à 1d10 plus votre modificateur de Dextérité et votre niveau de moine.Si vous réduisez les dégâts à 0, vous pouvez dépenser 1 point de Credo pour rediriger une partie de la force de l'attaque. Dans ce cas, choisissez une créature que vous pouvez voir dans un rayon de 1,50 mètre si l'attaque était au corps à corps, ou une créature que vous pouvez voir dans un rayon de 18 mètres et qui ne bénéficie pas d'un Abri total si l'attaque était à distance. Cette créature doit réussir un jet de sauvegarde de Dextérité ou subir des dégâts égaux à deux jets de votre dé d'Arts Martiaux plus votre modificateur de Dextérité. Les dégâts sont du même type que ceux infligés par l'attaque.|| 1d10+7 par réaction pour réduire des dégats, si réduit a 0 => contre un point de credo => sauvegarde de dex ou 2d6+4
+--Technique de la Paume || Chaque fois que vous touchez une créature avec une attaque de votre Déluge de coups, vous pouvez imposer l'un des effets suivants à cette cible.
+
+Hésitation. La cible ne peut pas effectuer d’attaques d’Opportunité avant le début de son prochain tour.
+
+Bourrade. La cible doit réussir un jet de sauvegarde de Force ou être repoussée de vous jusqu'à 4,50 mètres.
+
+Renversement. La cible doit réussir un jet de sauvegarde de Dextérité ou subir l'état À terre. || toucher déluge de coups permet un des 3 effets 
+-> pas d'attaque d'opportunité
+-> DD de force ou repoussé de 4,5 mètres 
+-> DD de dexterité ou a terre 
+--- Sorts
+-- Elementalisme ||
+Transmutation de niveau 0 (Druide, Ensorceleur, Magicien)
+Temps d'incantation : Action
+Portée : 9 m
+Composantes : V, S
+Durée : Instantanée
+
+Vous avez un contrôle sur les éléments, produisant un des effets suivants, dans les limites de la portée :
+	- Appel d'air. Vous créez une brise assez forte pour faire onduler du tissu, soulever la poussière, faire bruisser les feuilles d'un arbre et fermer une porte ouverte ou des volets, dans un Cube de 1,50 mètre de côté.
+	- Appel de terre. Vous créez un fin voile de poussière ou de sable qui recouvre les surfaces dans une zone de 1,50 mètre de côté. Ou sinon, vous pouvez faire apparaitre un seul mot, avec votre écriture, dans la terre ou le sable.
+	- Appel de feu. Vous créez un fin nuage composé de braises et de fumée colorée et parfumée (mais inoffensive) dans un Cube de 1,50 mètre de côté. Vous choisissez la couleur et l'odeur de la fumée, et les braises peuvent allumer bougies, torches et lampes dans la zone du sort. L'odeur de la fumée persiste pendant 1 minute.
+	- Appel d'eau. Vous créez une bruine de brume fraiche qui humidifie légèrement les créatures et les objets dans un Cube de 1,50 mètre de côté. Vous pouvez aussi choisir de créer 20 cl d'eau potable, soit dans un récipient ouvert, soit au sol. L'eau ainsi créée s'évapore en 1 minute.
+	- Façonnage élémentaire. Vous utilisez la poussière, le sable, le feu, la fumée, la brume ou l'eau qui tiennent dans un Cube de 30 cm de côté pour former une forme grossière (comme celle d'une créature ou d'un objet) pour 1 heure.
+--Résistance ||
+Abjuration de niveau 0 (Clerc, Druide)
+Temps d'incantation : Action
+Portée : Contact
+Composantes : V, S
+Durée : Concentration, jusqu'à 1 minute
+
+Vous touchez une créature consentante et choisissez un type de dégâts : acide, contondant, froid, feu, foudre, nécrotique, perforant, poison, radiant, tranchant ou tonnerre. Si la créature subit des dégâts du type choisi avant la fin du sort, elle réduit le total des dégâts subis de 1d4. Une créature ne peut bénéficier de ce sort qu'une seule fois par tour.
+--Soins ||
+Abjuration de niveau 1 (Barde, Clerc, Druide, Paladin, Rôdeur)
+Temps d'incantation : Action
+Portée : Contact
+Composantes : V, S
+Durée : Instantanée
+
+Une créature que vous touchez récupère un nombre de points de vie égal à 2d8 plus le modificateur de votre caractéristique d'incantation.
+Emplacement de niveau supérieur. Les soins augmentent de 2d8 pour chaque niveau d'emplacement de sort supérieur à 1.
+
+--- Mécaniques
+--Attaque à mains nues || Au lieu d'utiliser une arme pour effectuer une attaque de corps à corps, vous pouvez recourir à un coup de poing, de pied ou de tête, ou tout autre frappe violente. En termes de jeu, on parle alors d'attaque à mains nues : une attaque de corps à corps qui nécessite d'utiliser votre corps pour infliger des dégâts, agripper ou bousculer une cible située dans un rayon de 1,50 m.
+
+Chaque fois que vous recourez à votre attaque à mains nues, choisissez l'une des options suivantes pour son effet.
+
+Dégâts. Vous effectuez un jet d'attaque contre la cible. Le bonus au jet est égal à votre modificateur de Force + votre bonus de maîtrise. Si l'attaque touche, la cible subit un montant de dégâts contondants égal à 1 + votre modificateur de Force.
+
+-- Lutte et bousculade ||
+
+Lutte. La cible doit réussir un jet de sauvegarde de Force ou de Dextérité (c'est elle qui choisit) sous peine de subir l'état Agrippé. Le DD du jet de sauvegarde et des tentatives d'évasion est égal à 8 + votre modificateur de Force + votre bonus de maîtrise. Cette lutte n'est possible que si la catégorie de taille de la cible n'est pas supérieure à la vôtre de plus d'un cran et si vous disposez d'une main libre pour vous saisir d'elle. Lire aussi « Lutte ».
+
+Bousculade. La cible doit réussir un jet de sauvegarde de Force ou de Dextérité (c'est elle qui choisit), faute de quoi vous la poussez sur 1,50 m ou lui infligez l'état À terre. Le DD du jet de sauvegarde est égal à 8 + votre modificateur de Force + votre bonus de maîtrise. Cette bousculade n'est possible que si la catégorie de taille de la cible n'est pas supérieure à la vôtre de plus d'un cran. || attaques a mains nues -> dégats, ou lutte (cible jet DD de dex 1d8 + For (ou dex) + maitrise pour l'aggripper) ou Bousculade ( DD force ou dex 1d8 + For (ou dex) + maitrise pour pousser de 1m50 ou mettre a terre)
+-- A terre || Tant que vous avez l’état À terre, vous subissez les effets suivants.
+
+Déplacement limité. Vos seules possibilités de déplacement sont ramper ou vous relever en dépensant la moitié de votre Vitesse (arrondie à l’inférieur), ce qui met un terme à l’état. Si votre Vitesse est de 0, vous ne pouvez pas vous relever.
+
+Effet sur les attaques. Vous subissez un Désavantage aux jets d’attaque. Un jet d’attaque contre vous reçoit un Avantage si l’assaillant se trouve dans un rayon de 1,50 m de vous. Sans cela, ce jet d’attaque subit un Désavantage. || relever -> moitié vitesse, Désavantage aux jets d'attaque, avantage pour les assaillant au cac, désavantage pour les autres
+--Agrippé || Tant que vous avez l’état Agrippé, vous subissez les effets suivants.
+
+Vitesse 0. Votre Vitesse est de 0 et ne peut pas augmenter.
+
+Effet sur les attaques. Vous subissez un Désavantage aux jets d’attaque contre toute cible hormis l'agrippeur.
+
+Déplaçable. L'agrippeur peut vous tirer ou vous porter lorsqu'il se déplace, mais ses coûts de déplacement sont doublés, sauf si vous êtes de taille TP ou que votre catégorie de taille est inférieure d’au moins deux crans à la sienne. || vitesse a 0 , désavantages sur les non aggripeurs , agrippeur peut déplacer, cout de déplacement doublés.
+-- Pointe [Dash] ||
+Lorsque vous entreprenez l’action Pointe, vous recevez du déplacement supplémentaire pour ce tour. Cette augmentation est égale à votre Vitesse, après application d’éventuels modificateurs. Si vous disposez par exemple d’une Vitesse de 9 m, vous pouvez vous déplacer de 18 m à votre tour en entreprenant l’action Pointe. Si vous disposez d’une Vitesse de 9 m réduite à 4,50 m, vous pouvez vous déplacer de 9 m à votre tour en entreprenant l’action Pointe.
+
+Si vous disposez d’une vitesse spéciale, de type Vitesse de vol ou Vitesse de nage, vous pouvez utiliser celle-ci à la place de votre Vitesse lorsque vous entreprenez cette action. Vous choisissez la vitesse à utiliser chaque fois que vous l’entreprenez. Voir « Vitesse ». || double la vitesse au tour après modification
+
+-- Esquive [Dodge] ||
+Si vous entreprenez l’action Esquive, vous recevez les bénéfices suivants : jusqu'au début de votre tour suivant, tout jet d’attaque effectué contre vous par un assaillant que vous voyez subit le Désavantage, et vos jets de sauvegarde de Dextérité ont l’Avantage.
+
+Vous perdez ces bénéfices si vous subissez l’état Incapable d'agir/Neutralisé ou si votre Vitesse tombe à 0. || jusqu'au début de ton prochain tour, désavantage pour me toucher et avantage sur mes jets de dex
+--- Arme et outils
+-- Outils de bricoleur (50 po) ||
+Caractéristique : Dextérité     Poids : 5 kg
+Utilisation : assembler un objet de taille TP composé de ferraille, qui se désagrège au bout de 1 minute (DD 20)
+Artisanat : mousquet, pistolet, boîte à amadou, cloche, lanterne à capote, lanterne sourde, menottes, pelle, piège à mâchoires, serrure, sifflet
+-- Outils de cartographe (15 po) ||
+Caractéristique : Sagesse     Poids : 3 kg
+Utilisation : cartographier une petite région (DD 15)
+Artisanat : carte
+
+-- Dague ||	1d4 perforants	Finesse, Lancer (portée 6/18), Légère	Coup double	0,5 kg	2 po
+-- Lance ||	1d6 perforants	Lancer (portée 6/18), Polyvalente (1d8)	Sape	1,5 kg	1 po
+-- Finesse ||
+Lorsque effectuez une attaque avec une arme dotée de la propriété Finesse, vous choisissez entre le modificateur de Force et le modificateur de Dextérité celui qui s’applique aux jets d’attaque et de dégâts. Vous devez utiliser le même modificateur pour les deux jets. || for ou dex pour taper
+-- Lancer ||
+Quand une arme est dotée de la propriété Lancer, vous pouvez la lancer pour effectuer une attaque à distance, et la dégainer dans le cadre de l’attaque. S’il s’agit d’une arme de corps à corps, utilisez le même modificateur de caractéristique que pour les jets d’attaque et de dégâts de vos attaques de corps à corps avec cette arme. 
+-- Polyvalente ||
+Une arme dite Polyvalente peut s’utiliser à une ou deux mains. Une valeur de dégâts apparaît entre parenthèses avec la propriété. L’arme inflige ces dégâts lorsqu’elle est utilisée à deux mains pour effectuer une attaque de corps à corps.
+-- Légère ||
+Lorsque vous prenez l’action Attaque à votre tour et attaquez avec une arme Légère, vous pouvez effectuer une attaque supplémentaire par une action Bonus plus tard au cours de ce même tour. Cette attaque supplémentaire doit être effectuée avec une arme Légère différente et vous n’ajoutez pas votre modificateur de caractéristique aux dégâts de l’attaque supplémentaire, sauf si ce modificateur est négatif. Vous pouvez par exemple attaquer avec une épée courte dans une main et une dague dans l’autre en prenant l’action Attaque et une action Bonus, mais vous n’ajoutez votre modificateur de Force ou de Dextérité au jet de dégâts de l’action Bonus que si ce modificateur est négatif. || deuxieme attaque avec une autre arme légère mais pas de modificateur a la deuxieme attaque
