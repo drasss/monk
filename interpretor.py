@@ -1,5 +1,5 @@
 import streamlit as st
-st.set_page_config(layout="wide")
+st.set_page_config(layout="wide", initial_sidebar_state="expanded")
 
 simple=st.sidebar.toggle("Mode résumé",1)
 debug=st.sidebar.toggle("debug",0)
